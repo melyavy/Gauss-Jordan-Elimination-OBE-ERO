@@ -39,27 +39,17 @@ apply_gauss_jordan_elimination <- function(A) {
 
 # example
 
-# no 3a
 A <- matrix(c(4,4,-4,8,3,-1,1,2,-1,-1,1,0), ncol = 4, byrow = TRUE)
-
 apply_gauss_jordan_elimination(A)
 
-# no 4
 A <- matrix(c(2,3,2,0,-1,6,10,0,4,2,-4,0), ncol = 4, byrow = TRUE)
-
 apply_gauss_jordan_elimination(A)
 
-29*29
-
-14*65
-
-sqrt(-29)
+# additional (search determinant)
 
 A <- matrix(c(1,1,1,3,1,2,2,5,1,3,1,5,1,4,2,7), ncol = 4, byrow = TRUE)
 A
-
 det(A)
-
 
 # no 2
 a = matrix(c(1,1,1,1,1,2,3,4,1,2,1,2,3,5,5,7), ncol=4,byrow=TRUE)
